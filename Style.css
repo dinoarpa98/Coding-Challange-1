@@ -1,0 +1,80 @@
+body {
+  background-image:url(background.jpg);
+  background-size: cover;
+ }
+
+main{
+  color: white;
+  font-family: sans-serif;
+}
+
+#container {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-top: 3%;
+  text-align: left;
+  border: 20px rgba(0, 0, 0, .4);
+  background: rgba(0, 0, 0, .4);
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.logo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 250px;
+}
+
+.logotext {
+  color: #00FF00;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.tabella {
+  background-color:#00FF00;
+  text-align: center;
+  border:1px;
+  margin:15px;
+  padding:15px;
+}
+
+.title {
+  color: white;
+  font-size: 30px
+}
+
+
+div > p {
+  font-size: 20px;
+}
+
+div > span {
+  font-size: 20px;
+}
+
+.goldbar{
+  color: gold;
+  background-color: #daa520;
+  width: 45%;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.greenbar{
+  color: green;
+  background-color: green;
+  width: 70%;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.redbar{
+  color:#DC143C;
+  background-color:#DC143C;
+  width: 15%;
+  border-radius: 16px;
+  padding: 16px;
+}
